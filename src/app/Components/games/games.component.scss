@@ -1,0 +1,110 @@
+.jumbotron {
+  background: url(../../../assets/images/paladins.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  background-color: #1c1e22b4;
+  border: 1px solid rgba(0,0,0,.6);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 4rem 2rem;
+}
+
+.btn-ftg-blue {
+  background-image: linear-gradient(#4799eb,#4799eb 60%,#49acff);
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.ftg-blue {
+  color: #49acff!important;
+}
+
+.card-body {
+  padding-bottom: 12px;
+}
+
+.badge-ftg {
+  color: white;
+  background-color: #4799eb;
+}
+
+a.stretched-link.no-underline {
+  color: rgb(176, 176, 176);
+}
+
+.no-underline {
+  text-decoration: none!important;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+.grow:hover{
+  transform: scale(1.03);
+}
+
+a {
+  cursor: pointer;
+  outline: 0!important;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #32383e;
+  background-clip: border-box;
+  border: 0 solid rgba(0,0,0,.6);
+  border-radius: 0.25rem;
+  min-width: 0;
+  word-wrap: break-word;
+}
+
+.text-muted, .text-secondary {
+  color: #7a8288!important;
+}
+
+.text-truncate {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.badge-genre {
+  padding-top: 1px;
+  padding-bottom: 2px;
+  transform: translateY(-12%);
+}
+
+.text-dark {
+  color: #272b30!important;
+}
+
+.badge-secondary {
+  background-color: #7a8288;
+}
+
+.more-btn{
+  width: fit-content;
+  margin: auto;
+}
+
+img{
+  min-height: 100px;
+}
+
+.image {
+    img {
+      max-width: 100%;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+  }
+
+.content {
+  padding: 20px 30px;
+}
+
